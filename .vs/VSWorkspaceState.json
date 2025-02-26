@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\app",
+    "\\app\\app\\Http",
+    "\\app\\app\\Http\\Controllers",
+    "\\app\\app\\Http\\Requests",
+    "\\app\\resources",
+    "\\app\\resources\\views",
+    "\\app\\resources\\views\\Layouts",
+    "\\app\\storage",
+    "\\app\\storage\\app",
+    "\\app\\storage\\app\\public"
+  ],
+  "SelectedNode": "\\app\\app\\Http\\Requests\\CreateBooking.php",
+  "PreviewInSolutionExplorer": false
+}

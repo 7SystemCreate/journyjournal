@@ -23,4 +23,3 @@ Route::get('/post/{post}/detail', [DisplayController::class, 'postDetail'])->nam
 Route::get('/post/{post}/booking', [RegistrationController::class, 'booking'])->name('booking');
 Route::post('/post/{post}/booking/confirm', [RegistrationController::class, 'bookingConf'])->name('booking.conf');
 Route::post('/booking/complete', [RegistrationController::class, 'bookingComp'])->name('booking.comp');
-Route::get('/booking/complete', function () { return view('booking_comp');})->name('booking.complete');

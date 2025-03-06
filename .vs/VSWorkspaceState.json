@@ -4,15 +4,13 @@
     "\\app",
     "\\app\\app",
     "\\app\\app\\Http",
-    "\\app\\app\\Http\\Controllers",
     "\\app\\app\\Http\\Requests",
+    "\\app\\app\\Providers",
     "\\app\\resources",
     "\\app\\resources\\views",
-    "\\app\\resources\\views\\Layouts",
-    "\\app\\storage",
-    "\\app\\storage\\app",
-    "\\app\\storage\\app\\public"
+    "\\app\\resources\\views\\auth",
+    "\\app\\resources\\views\\auth\\passwords"
   ],
-  "SelectedNode": "\\app\\app\\Http\\Requests\\CreateBooking.php",
+  "SelectedNode": "\\app\\storage",
   "PreviewInSolutionExplorer": false
 }

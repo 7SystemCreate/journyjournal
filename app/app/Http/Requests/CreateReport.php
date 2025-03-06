@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class CreateBooking extends FormRequest
+class CreateReport extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -24,11 +24,7 @@ class CreateBooking extends FormRequest
     public function rules()
     {
         return [
-            'name' =>'required|string',
-            'checkin_date' =>'required|date',
-            'checkout_date' =>'required|date',
-            'booking_people' =>'required|integer',
-            'tel' =>'required|string|regex:/^[0-9\-]+$/|max:15',
+            'report_reason' =>'required|string',
         ];
     }
 }

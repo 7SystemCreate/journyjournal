@@ -20,6 +20,7 @@
                     </div>
                 <form action="{{ route('booking.conf', ['post' => $post->id]) }}" method="POST">
                     @csrf
+                    <input type="hidden" name="post_id" value="{{ $post->id }}">
                     <div class="mb-3">
                         <label class="form-label">氏名</label>
                         <input type="text" name="name" value="{{ old('name')}}" class="form-control" required>
@@ -46,7 +47,6 @@
                     </div>
 
                     <div class="d-flex justify-content-center mt-3">
-                        <a href="{{ route('post.detail', ['post' => $post->id]) }}" class="btn btn-secondary btn-lg me-3">戻る</a>
                         <button type="submit" class="btn btn-success btn-lg">確認</button>
                     </div>
                 </form>

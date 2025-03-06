@@ -32,12 +32,8 @@
                         @csrf
                         <button type="submit" class="btn btn-outline-primary">いいね！</button>
                     </form>
-
                      <!-- 通報ボタン -->
-                    <form action="" method="POST">
-                        @csrf
-                        <button type="submit" class="btn btn-warning">通報</button>
-                    </form>
+                    <a href={{ route('post.report', ['post' => $post['id']]) }} class="btn btn-warning">通報<a>
                     <!-- 予約ボタン -->
                     <a href={{ route('booking', ['post' => $post['id']]) }} class="btn btn-success">予約する</a>
                 </div>

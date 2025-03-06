@@ -28,6 +28,26 @@
                     JournyJournal
                 </a>
             </div>
+            <div class="my-navbar-control">
+            @if(Auth::check())
+                <span class="my-navbar-item">{{ Auth::user()->name }}</span>
+                /
+                <a href="#" id="logout" class="my-navbar-item">ログアウト</a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+                <script>
+                    document.getElementById('logout').addEventListener('click', function(event) {
+                    event.preventDefault();
+                    document.getElementById('logout-form').submit();
+                    });
+                </script>
+            @else
+                <a class="my-navbar-item" href="{{ route('login') }}">ログイン</a>
+                /
+                <a class="my-navbar-item" href="{{ route('register' )}}">会員登録</a>
+            @endif
+            </div>
         </nav>
         @yield('content')
     </div>

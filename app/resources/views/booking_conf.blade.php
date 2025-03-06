@@ -29,12 +29,17 @@
                         <td>{{ $booking['booking_people'] }}人</td>
                     </tr>
                 </table>
+
                 <div class="d-flex justify-content-center">
-                    <form action="{{ route('booking', ['post' => $post->id]) }}" method="GET">
-                        <button type="submit" class="btn btn-secondary me-3">戻る</button>
-                    </form>
-                    <form action="{{ route('booking.comp', ['post' => $post->id]) }}" method="POST">
+                    <form action="{{ route('booking.comp') }}" method="POST">
                         @csrf
+                        <input type="hidden" name="name" value="{{ $booking['name'] }}">
+                        <input type="hidden" name="tel" value="{{ $booking['tel'] }}">
+                        <input type="hidden" name="checkin_date" value="{{ $booking['checkin_date'] }}">
+                        <input type="hidden" name="checkout_date" value="{{ $booking['checkout_date'] }}">
+                        <input type="hidden" name="booking_people" value="{{ $booking['booking_people'] }}">
+                        <input type="hidden" name="post_id" value="{{ $post['id'] }}">
+
                         <button type="submit" class="btn btn-success">予約確定</button>
                     </form>
                 </div>

@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Post;
 
-class DisplayController extends Controller
+class GeneralDisplayController extends Controller
 {
     public function index(){
         //Eloquent
@@ -17,13 +17,6 @@ class DisplayController extends Controller
         
         return view('general_main', [
             'posts' => $postAll,
-        ]);
-    }
-
-    public function postDetail(Post $post) {
-
-        return view('post_detail', [
-            'post' => $post,
         ]);
     }
 }

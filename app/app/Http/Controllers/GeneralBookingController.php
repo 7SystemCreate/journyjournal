@@ -8,17 +8,20 @@ use App\Post;
 use App\Booking;
 use App\Http\Requests\CreateBooking;
 
-class RegistrationController extends Controller
+class GeneralBookingController extends Controller
 {
-    public function booking(Post $post) {
+   public function booking(Post $post) {
 
         return view('booking', [
             'post' => $post,
         ]);
     }
 
-    public function bookingConf(CreateBooking $request, Post $post)
-    {
+    public function bookingConf(CreateBooking $request, Post $post){
+
+        $postId = $request->input('post_id');
+        $post = Post::find($postId);
+
         $booking = new Booking;
 
         $booking->name = $request->name;
@@ -33,7 +36,7 @@ class RegistrationController extends Controller
         ]);
     }
 
-    public function bookingComp(CreateBooking $request, Post $post) {
+    public function bookingComp(Request $request){
 
         $booking = new Booking;
 
@@ -42,10 +45,10 @@ class RegistrationController extends Controller
         $booking->checkout_date = $request->checkout_date;
         $booking->booking_people = $request->booking_people;
         $booking->tel = $request->tel;
+        $booking->post_id = $request->post_id;
 
         $booking->save();
 
-        return redirect()->route('booking.comp');
+        return view('booking_comp');
     }
-
 }

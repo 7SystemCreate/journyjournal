@@ -20,7 +20,7 @@ class CreateBookingsTable extends Migration
             $table->string('name', '255');
             $table->date('booking_date');
             $table->date('checkin_date');
-            $table->date('checout_date');
+            $table->date('checkout_date');
             $table->integer('booking_people');
             $table->string('tel', '20');
             $table->tinyInteger('del_flg')->default(0);

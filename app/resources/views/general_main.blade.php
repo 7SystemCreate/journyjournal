@@ -9,7 +9,7 @@
                     <div class="card d-flex flex-row align-items-center p-3">
                         <div class="col-4">
                             <a href="{{ route('post.detail', ['post' => $post['id']]) }}">
-                                <img src="{{ asset('storage/' . ($post->image ?? 'images\postimages\defaultimage.png')) }}" class="img-fluid rounded" alt="投稿画像">
+                                <img src="{{ asset('storage/' . ($post->image)) }}" class="img-fluid rounded" alt="投稿画像">
                             </a>
                         </div>
 

@@ -29,27 +29,45 @@
                 </a>
             </div>
             <div class="my-navbar-control">
-            @if(Auth::check())
-                <span class="my-navbar-item">{{ Auth::user()->name }}</span>
-                /
-                <a href="#" id="logout" class="my-navbar-item">ログアウト</a>
-                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                    @csrf
-                </form>
-                <script>
-                    document.getElementById('logout').addEventListener('click', function(event) {
-                    event.preventDefault();
-                    document.getElementById('logout-form').submit();
-                    });
-                </script>
-            @else
-                <a class="my-navbar-item" href="{{ route('login') }}">ログイン</a>
-                /
-                <a class="my-navbar-item" href="{{ route('register' )}}">会員登録</a>
-            @endif
+                @if(Auth::check())
+                    @if(Auth::user()->role == 2) <!-- 管理者 -->
+                        <a href="{{ route('admin.mypage') }}" class="my-navbar-item">
+                            <img src="{{ asset('storage/' . Auth::user()->icon) }}" alt="アイコン" style="width: 30px; height: 30px; border-radius: 50%; margin-right: 8px;">
+                            {{ Auth::user()->name }}
+                        </a>
+                    @elseif(Auth::user()->role == 1) <!-- 旅館運営 -->
+                        <a href="{{ route('inn.mypage') }}" class="my-navbar-item">
+                            <img src="{{ asset('storage/' . Auth::user()->icon) }}" alt="アイコン" style="width: 30px; height: 30px; border-radius: 50%; margin-right: 8px;">
+                            {{ Auth::user()->name }}
+                        </a>
+                    @elseif(Auth::user()->role == 0) <!-- 一般 -->
+                        <a href="{{ route('general.mypage') }}" class="my-navbar-item">
+                            <img src="{{ asset('storage/' . Auth::user()->icon) }}" alt="アイコン" style="width: 30px; height: 30px; border-radius: 50%; margin-right: 8px;">
+                            {{ Auth::user()->name }}
+                        </a>
+                    @endif
+                    /
+                    <a href="#" id="logout" class="my-navbar-item">ログアウト</a>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
+                    <script>
+                        document.getElementById('logout').addEventListener('click', function(event) {
+                            event.preventDefault();
+                            document.getElementById('logout-form').submit();
+                        });
+                    </script>
+                @else
+                    <a class="my-navbar-item" href="{{ route('login') }}">ログイン</a>
+                    /
+                    <a class="my-navbar-item" href="{{ route('register') }}">会員登録</a>
+                @endif
             </div>
         </nav>
-        @yield('content')
+
+        <main>
+            @yield('content')
+        </main>
     </div>
 </body>
 </html>

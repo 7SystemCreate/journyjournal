@@ -8,6 +8,8 @@ use App\Post;
 use App\Report;
 use App\Http\Requests\CreateReport;
 
+use Illuminate\Support\Facades\Auth;
+
 class GeneralReportController extends Controller
 {
     public function postReport(Post $post) {
@@ -35,11 +37,18 @@ class GeneralReportController extends Controller
     public function reportComp(Request $request){
 
         $report = new Report;
-
+        /*
         $report->report_reason = $request->report_reason;
         $report->post_id = $request->post_id;
 
         $report->save();
+        */
+        $columns = ['report_reason', 'post_id'];
+        foreach($columns as $column) {
+            $report->$column = $request->$column;
+        }
+
+        Auth::user()->report()->save($report);
 
         return view('report_comp');
     }

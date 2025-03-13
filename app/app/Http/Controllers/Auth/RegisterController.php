@@ -8,6 +8,7 @@ use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Auth;
 
 class RegisterController extends Controller
 {
@@ -29,7 +30,19 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    //protected $redirectTo = RouteServiceProvider::HOME;
+    protected function redirectTo()
+    {
+        $role = Auth::user()->role;
+
+        if ($role == 2) {
+            return route('admin_mypage'); // 管理者画面へのリダイレクト
+        } elseif ($role == 1) {
+            return route('inn.home');   // 旅館運営ユーザー画面へのリダイレクト
+        }
+
+        return route('home');
+    }
 
     /**
      * Create a new controller instance.
@@ -53,6 +66,7 @@ class RegisterController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'role' => ['nullable', 'integer'], 
         ]);
     }
 
@@ -68,6 +82,7 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'role' => $data['role'] ?? 0,
         ]);
     }
 }

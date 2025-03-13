@@ -6,6 +6,7 @@ use App\Http\Controllers\GeneralReportController;
 use App\Http\Controllers\GeneralBookingController;
 use App\Http\Controllers\InnDisplayController;
 use App\Http\Controllers\InnPostController;
+use App\Http\Controllers\AdminDisplayController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,14 +23,13 @@ use App\Http\Controllers\InnPostController;
 //    return view('welcome');
 // });
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 
 //一般ユーザ(登録なくても利用可)
 Route::get('/', [GeneralDisplayController::class, 'index'])->name('home');
 Route::get('/post/{post}/detail', [GeneralPostController::class, 'postDetail'])->name('post.detail');
 
-Route::group(['middleware' => 'auth'], function() {
-
+Route::group(['middleware' => ['auth', 'can:user']], function() {
     //通報
     Route::get('/post/{post}/report', [GeneralReportController::class, 'postReport'])->name('post.report');
     Route::post('/post/{post}/report/confirm', [GeneralReportController::class, 'reportConf'])->name('report.conf');
@@ -39,8 +39,9 @@ Route::group(['middleware' => 'auth'], function() {
     Route::post('/post/{post}/booking/confirm', [GeneralBookingController::class, 'bookingConf'])->name('booking.conf');
     Route::post('/booking/complete', [GeneralBookingController::class, 'bookingComp'])->name('booking.comp');
     //一般ユーザマイページ
-
-
+    Route::get('/general/mypage', [GeneralDisplayController::class, 'showMypage'])->name('general.mypage');
+});
+Route::group(['middleware' => ['auth', 'can:inn']], function() {
     //旅館運営ユーザ
     Route::get('/inn_main', [InnDisplayController::class, 'index'])->name('inn.home');
     Route::get('/post/{post}/mypost_detail', [InnPostController::class, 'mypostDetail'])->name('mypost.detail');
@@ -50,10 +51,16 @@ Route::group(['middleware' => 'auth'], function() {
     Route::post('/post/create/confirm', [InnPostController::class, 'createConf'])->name('createpost.conf');
     Route::post('/post/create/complete', [InnPostController::class, 'createComp'])->name('createpost.comp');
 
+    //旅館運営ユーザマイページ
+    Route::get('/inn/mypage', [InnDisplayController::class, 'showMypage'])->name('inn.mypage');
 
     //投稿内容編集
     Route::get('/post/{post}/edit_post', [InnPostController::class, 'editPost'])->name('edit.post');
     Route::post('/post/{post}/edit_post/confirm', [InnPostController::class, 'editConf'])->name('editpost.conf');
     Route::post('/post/{post}/edit_post/update', [InnPostController::class, 'update'])->name('post.update');
+});
+Route::group(['middleware' => ['auth', 'can:admin']], function() {
+    //管理者ユーザマイページ
+    Route::get('/admin/mypage', [AdminDisplayController::class, 'showMypage'])->name('admin.mypage');
 });
 

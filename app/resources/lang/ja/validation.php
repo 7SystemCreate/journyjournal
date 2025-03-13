@@ -59,7 +59,7 @@ return [
     'image' => 'The :attribute must be an image.',
     'in' => 'The selected :attribute is invalid.',
     'in_array' => 'The :attribute field does not exist in :other.',
-    'integer' => 'The :attribute must be an integer.',
+    'integer' => ':attribute 欄は数字を入力してください',
     'ip' => 'The :attribute must be a valid IP address.',
     'ipv4' => 'The :attribute must be a valid IPv4 address.',
     'ipv6' => 'The :attribute must be a valid IPv6 address.',
@@ -77,9 +77,9 @@ return [
         'array' => 'The :attribute must not have more than :value items.',
     ],
     'max' => [
-        'numeric' => 'The :attribute may not be greater than :max.',
+        'numeric' => ':attribute 欄は:max桁以内で入力してください',
         'file' => 'The :attribute may not be greater than :max kilobytes.',
-        'string' => 'The :attribute may not be greater than :max characters.',
+        'string' => ':attribute 欄は:max文字以内で入力してください',
         'array' => 'The :attribute may not have more than :max items.',
     ],
     'mimes' => 'The :attribute must be a file of type: :values.',
@@ -96,7 +96,7 @@ return [
     'password' => 'The password is incorrect.',
     'present' => 'The :attribute field must be present.',
     'regex' => 'The :attribute format is invalid.',
-    'required' => 'The :attribute field is required.',
+    'required' => ':attribute 欄は必須項目です',
     'required_if' => 'The :attribute field is required when :other is :value.',
     'required_unless' => 'The :attribute field is required unless :other is in :values.',
     'required_with' => 'The :attribute field is required when :values is present.',
@@ -112,7 +112,7 @@ return [
     ],
     'starts_with' => 'The :attribute must start with one of the following: :values.',
     'string' => 'The :attribute must be a string.',
-    'timezone' => 'この :attribute は登録されています',
+    'timezone' => 'The :attribute must be a valid zone.',
     'unique' => 'The :attribute has already been taken.',
     'uploaded' => 'The :attribute failed to upload.',
     'url' => 'The :attribute format is invalid.',
@@ -146,6 +146,16 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'amount' => '金額',
+        'date' => '日付',
+        'type_id' => 'カテゴリ',
+        'comment' =>'メモ',
+        'email' => 'メールアドレス',
+        'password' => 'パスワード',
+        'name' => '名前',
+        'category' => 'カテゴリ',
+        
+    ],
 
 ];

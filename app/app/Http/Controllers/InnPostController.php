@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Post;
+use App\Http\Requests\CreatePost;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 
 class InnPostController extends Controller
 {
@@ -38,90 +41,81 @@ class InnPostController extends Controller
         ]);
     }
 
-     public function createConf(Request $request)
+     public function createConf(CreatePost $request)
     {
-        $validated = $request->validate([
-            'title' => 'required|string|max:255',
-            'image' => 'nullable|image|max:2048',
-            'date' => 'nullable|date',
-            'max_people' => 'nullable|integer|min:1',
-            'amount' => 'nullable|integer|min:0',
-            'comment' => 'nullable|string',
+        $post = new Post;
+        
+        $post->title = $request->title;
+        $post->image = $request->file('image')->store('images/postimages', 'public');
+        $post->date = $request->date;
+        $post->max_people = $request->max_people;
+        $post->amount = $request->amount;
+        $post->comment = $request->comment;
+
+        return view('create_post_conf', [
+            'post' => $post,
         ]);
-
-        // 画像がアップロードされた場合
-        if ($request->hasFile('image')) {
-            $imagePath = $request->file('image')->store('images/postimages', 'public');
-            $validated['image'] = $imagePath;
-        }
-
-        session(['post_data' => $validated]);
-
-        return view('create_post_conf');
     }
 
     public function createComp(Request $request)
     {
-        $data = session('post_data');
-
-        if (!$data) {
-            return redirect()->route('create.post')->with('error', 'セッションが切れました。もう一度入力してください。');
+        $post = new Post;
+        $columns = ['title', 'image', 'date', 'max_people', 'amount', 'comment'];
+        foreach($columns as $column) {
+            $post->$column = $request->$column;
         }
 
-        $post = Post::create($data);
+        Auth::user()->post()->save($post);
 
-        session()->forget('post_data');
-
-       return view('create_post_comp');
+        return view('create_post_comp');
 
     }
 
-    public function editConf(Request $request, $id)
+    public function editConf(Post $post, CreatePost $request)
     {
-        $post = Post::findOrFail($id);
+        $post->title = $request->title;
+        $post->date = $request->date;
+        $post->max_people = $request->max_people;
+        $post->amount = $request->amount;
+        $post->comment = $request->comment;
 
-        $validated = $request->validate([
-            'title' => 'required|string|max:255',
-            'image' => 'nullable|image|max:2048',
-            'date' => 'nullable|date',
-            'max_people' => 'nullable|integer|min:1',
-            'amount' => 'nullable|integer|min:0',
-            'comment' => 'nullable|string',
-        ]);
-
-        // 画像削除チェックボックスがONならフラグをセット
-        if ($request->has('delete_image')) {
-            $validated['delete_image'] = true;
-        }
-        // 画像がアップロードされた場合
         if ($request->hasFile('image')) {
-            $imagePath = $request->file('image')->store('images/postimages', 'public');
-            $validated['image'] = $imagePath;
-        }
-
-        session(['post_data' => $validated]);
-
-        return view('edit_post_conf', compact('post'));
-    }
-
-    public function update(Request $request, $id)
-    {
-        $post = Post::findOrFail($id);
-        $post->update(session('post_data'));
-
-        if (!empty($data['delete_image'])) {
+            // 古い画像が存在していたら削除
             if ($post->image) {
                 Storage::delete('public/' . $post->image);
             }
-            $data['image'] = null;
+            // 新しい画像を保存
+            $post->image = $request->file('image')->store('images/postimages', 'public');
         }
 
-        if (!isset($data['image'])) {
-            unset($data['image']);
+        // チェックボックスがオンの場合、画像を削除
+        if ($request->has('delete_image') && $request->delete_image == 1) {
+            $post->image = null;
         }
 
-        session()->forget('post_data');
-
-        return redirect()->route('mypost.detail', ['post' => $post->id])->with('success', '投稿が更新されました');
+        return view('edit_post_conf', [
+            'post' => $post,
+        ]);
     }
+
+    public function update(Request $request, $id)
+{
+    // 投稿を取得
+    $post = Post::findOrFail($id);
+
+    // リクエストからのデータで投稿を更新
+    $post->title = $request->title;
+    $post->image = $request->image;
+    $post->date = $request->date;
+    $post->max_people = $request->max_people;
+    $post->amount = $request->amount;
+    $post->comment = $request->comment;
+
+    // 投稿を保存
+    $post->save();
+
+    // 更新後のページへリダイレクト
+    return redirect()->route('mypost.detail', ['post' => $post->id])->with('success', '投稿が更新されました');
+}
+
 }

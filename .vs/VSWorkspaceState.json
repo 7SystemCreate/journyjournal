@@ -5,9 +5,12 @@
     "\\app\\app",
     "\\app\\app\\Http",
     "\\app\\app\\Http\\Controllers",
-    "\\app\\app\\Http\\Middleware",
+    "\\app\\app\\Http\\Requests",
     "\\app\\resources",
-    "\\app\\resources\\views"
+    "\\app\\resources\\js",
+    "\\app\\resources\\views",
+    "\\app\\resources\\views\\Layouts"
   ],
+  "SelectedNode": "\\app\\resources\\views\\innbooking_detail.blade.php",
   "PreviewInSolutionExplorer": false
 }

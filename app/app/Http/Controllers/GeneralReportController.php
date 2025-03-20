@@ -50,6 +50,10 @@ class GeneralReportController extends Controller
 
         Auth::user()->report()->save($report);
 
+        $post = Post::find($request->post_id);
+        $post->report_flg += 1; // 通報回数を増やす
+        $post->save(); // 変更を保存
+
         return view('report_comp');
     }
 

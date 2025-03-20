@@ -29,7 +29,7 @@ class CreatePost extends FormRequest
             'date' => 'nullable|date',
             'max_people' => 'nullable|integer|min:1',
             'amount' => 'nullable|integer|min:0',
-            'comment' => 'nullable|string',
+            'comment' => 'nullable|string|max:255',
         ];
     }
 }

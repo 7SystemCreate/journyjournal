@@ -5,7 +5,6 @@
  */
 
 require('./bootstrap');
-
 window.Vue = require('vue');
 
 /**
@@ -48,3 +47,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+
+require('./ajaxlike.js');

@@ -46,7 +46,11 @@ class InnPostController extends Controller
         $post = new Post;
         
         $post->title = $request->title;
-        $post->image = $request->file('image')->store('images/postimages', 'public');
+        if ($request->hasFile('image')) {
+            $post->image = $request->file('image')->store('images/postimages', 'public');
+        } else {
+            $post->image = 'images/postimages/defaultimage.png';
+        }
         $post->date = $request->date;
         $post->max_people = $request->max_people;
         $post->amount = $request->amount;

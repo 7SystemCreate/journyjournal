@@ -4,7 +4,17 @@
 <div class="container">
     <div class="card p-4">
         <h2 class="mb-3">投稿内容を編集</h2>
-
+        <div class= 'panel-body'>
+            @if($errors->any())
+            <div class='alert alert-danger'>
+                <ul>
+                    @foreach($errors->all() as $message)
+                    <li>{{ $message }}</li>
+                    @endforeach
+                </ul>
+            </div>
+            @endif
+        </div>
         <form action="{{ route('editpost.conf', ['post' => $post->id]) }}" method="POST" enctype="multipart/form-data">
             @csrf
             @method('POST') 

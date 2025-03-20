@@ -3,7 +3,6 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <!-- 左側: 予約情報入力フォーム -->
         <div class="col-md-6">
             <div class="card p-4 h-100">
                 <h4 class="mb-3">予約情報を入力</h4>
@@ -53,13 +52,11 @@
             </div>
         </div>
 
-        <!-- 右側: 予約のタイトル・料金詳細 -->
         <div class="col-md-6">
             <div class="card p-4 h-100">
                 <h4 class="mb-3">{{ $post->title }}</h4>
                 <p class="text-muted">{{ $post->comment }}</p> <!-- コメント -->
 
-                <!-- 金額を目立たせる、少し大きくし下に表示 -->
                 <div class="bg-light p-3 rounded text-center mt-4">
                     <p class="fw-bold fs-3 mb-0">金額: {{ number_format($post->amount) }} 円</p>
                 </div>

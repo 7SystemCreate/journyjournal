@@ -2,14 +2,17 @@
 
 @section('content')
 <div class="container-fluid">
-    <div class="row">
-        @if ($posts->isNotEmpty()) 
+    <h2 class="text-center font-weight-bold my-4">いいね一覧</h2>
+    
+    @if ($posts->isNotEmpty()) 
+        <div class="row">
             @foreach ($posts as $post)
                 <div class="col-12 mb-4">
                     <div class="card d-flex flex-row align-items-center p-3">
                         <div class="col-4">
                             <a href="{{ route('post.detail', ['post' => $post['id']]) }}">
-                                <img src="{{ asset('storage/' . ($post->image)) }}" class="img-fluid rounded" alt="投稿画像">
+                                <img src="{{ asset('storage/' . ($post->image ?? 'images/postimages/defaultimage.png')) }}" 
+                                     class="img-fluid rounded" alt="投稿画像">
                             </a>
                         </div>
 
@@ -54,12 +57,12 @@
                     </div>
                 </div>
             @endforeach
-        @else
-            <p>投稿がありません。</p>
-        @endif
-    </div>
+        </div>
+    @else
+        <p>まだ「いいね」をした投稿がありません。</p>
+    @endif
 </div>
-
+@endsection
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
@@ -121,6 +124,3 @@
         });
     }
 </script>
-
-
-@endsection

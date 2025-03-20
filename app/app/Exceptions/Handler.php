@@ -51,5 +51,7 @@ class Handler extends ExceptionHandler
     public function render($request, Exception $exception)
     {
         return parent::render($request, $exception);
+        /* どんなエラーでも error.blade.php に遷移
+        return response()->view('error', [], 500);*/
     }
 }

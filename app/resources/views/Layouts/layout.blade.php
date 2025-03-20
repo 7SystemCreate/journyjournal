@@ -24,25 +24,32 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    JournyJournal
+                <a class="navbar-brand"
+                    @if (Auth::check() && Auth::user()->role == 1)
+                        href="{{ route('inn.home') }}"
+                    @elseif (Auth::check() && Auth::user()->role == 2)
+                        href="{{ route('admin.mypage') }}"
+                    @else
+                        href="{{ route('home') }}"
+                    @endif
+                    >JournyJournal
                 </a>
             </div>
             <div class="my-navbar-control">
                 @if(Auth::check())
                     @if(Auth::user()->role == 2) <!-- 管理者 -->
                         <a href="{{ route('admin.mypage') }}" class="my-navbar-item">
-                            <img src="{{ asset('storage/' . Auth::user()->icon) }}" alt="アイコン" style="width: 30px; height: 30px; border-radius: 50%; margin-right: 8px;">
+                            <img src="{{ asset('storage/' . Auth::user()->icon) }}" alt="アイコン" style="width: 30px; height: 30px; object-fit: cover; border-radius: 50%; margin-right: 8px;">
                             {{ Auth::user()->name }}
                         </a>
                     @elseif(Auth::user()->role == 1) <!-- 旅館運営 -->
                         <a href="{{ route('inn.mypage') }}" class="my-navbar-item">
-                            <img src="{{ asset('storage/' . Auth::user()->icon) }}" alt="アイコン" style="width: 30px; height: 30px; border-radius: 50%; margin-right: 8px;">
+                            <img src="{{ asset('storage/' . Auth::user()->icon) }}" alt="アイコン" style="width: 30px; height: 30px; object-fit: cover; border-radius: 50%; margin-right: 8px;">
                             {{ Auth::user()->name }}
                         </a>
                     @elseif(Auth::user()->role == 0) <!-- 一般 -->
                         <a href="{{ route('general.mypage') }}" class="my-navbar-item">
-                            <img src="{{ asset('storage/' . Auth::user()->icon) }}" alt="アイコン" style="width: 30px; height: 30px; border-radius: 50%; margin-right: 8px;">
+                            <img src="{{ asset('storage/' . Auth::user()->icon) }}" alt="アイコン" style="width: 30px; height: 30px; object-fit: cover; border-radius: 50%; margin-right: 8px;">
                             {{ Auth::user()->name }}
                         </a>
                     @endif

@@ -150,7 +150,7 @@ return [
         'amount' => '金額',
         'date' => '日付',
         'type_id' => 'カテゴリ',
-        'comment' =>'メモ',
+        'comment' =>'内容',
         'email' => 'メールアドレス',
         'password' => 'パスワード',
         'name' => '名前',

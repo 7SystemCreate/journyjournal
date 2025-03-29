@@ -3,104 +3,52 @@
   "WorkspaceRootPath": "C:\\journyjournal\\docker-env\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\booking.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\booking.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\routes\\web.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\routes\\web.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\app\\Providers\\AuthServiceProvider.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\app\\Providers\\AuthServiceProvider.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\app\\Http\\Controllers\\InnDisplayController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\app\\Http\\Controllers\\InnDisplayController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\general_mypage.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\general_mypage.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\app\\Http\\Controllers\\GeneralDisplayController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\app\\Http\\Controllers\\GeneralDisplayController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\app\\Http\\Controllers\\AccountController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\app\\Http\\Controllers\\AccountController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\mybooking_conf.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\mybooking_conf.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\config\\auth.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\config\\auth.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\post_detail.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\post_detail.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\account_edit.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\account_edit.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\edit_post.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\edit_post.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\account_edit_conf.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\account_edit_conf.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\app\\Http\\Requests\\CreatePost.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\app\\Http\\Requests\\CreatePost.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\mybooking_list.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\mybooking_list.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\lang\\ja\\validation.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\lang\\ja\\validation.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\app\\Post.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\app\\Post.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\app\\Http\\Controllers\\AdminDisplayController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\app\\Http\\Controllers\\AdminDisplayController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\app\\Http\\Controllers\\Auth\\LoginController.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\app\\Http\\Controllers\\Auth\\LoginController.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\general_mypage.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\general_mypage.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\delete_account.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\delete_account.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\config\\auth.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\config\\auth.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\delete_user.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\delete_user.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\inn_mypage.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\inn_mypage.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\post_list.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\post_list.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\app\\Providers\\AuthServiceProvider.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\app\\Providers\\AuthServiceProvider.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\app\\Exceptions\\Handler.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\app\\Exceptions\\Handler.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\general_main.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\general_main.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\lang\\en\\validation.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\lang\\en\\validation.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\delete_post.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\delete_post.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\config\\app.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\config\\app.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\user_list.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\user_list.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\journyjournal\\docker-env\\app\\resources\\views\\auth\\passwords\\reset.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app\\resources\\views\\auth\\passwords\\reset.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 24,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "validation.php",
               "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\lang\\ja\\validation.php",
               "RelativeDocumentMoniker": "app\\resources\\lang\\ja\\validation.php",
@@ -123,11 +71,12 @@
               "ViewState": "AgIAAHUAAAAAAAAAAAAAAJgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
               "WhenOpened": "2025-03-09T13:12:50.777Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 11,
               "Title": "Handler.php",
               "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\app\\Exceptions\\Handler.php",
               "RelativeDocumentMoniker": "app\\app\\Exceptions\\Handler.php",
@@ -140,7 +89,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "booking.blade.php",
+              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\booking.blade.php",
+              "RelativeDocumentMoniker": "app\\resources\\views\\booking.blade.php",
+              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\booking.blade.php",
+              "RelativeToolTip": "app\\resources\\views\\booking.blade.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-03-20T13:14:16.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "mybooking_conf.blade.php",
+              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\mybooking_conf.blade.php",
+              "RelativeDocumentMoniker": "app\\resources\\views\\mybooking_conf.blade.php",
+              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\mybooking_conf.blade.php",
+              "RelativeToolTip": "app\\resources\\views\\mybooking_conf.blade.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-03-20T13:08:36.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminDisplayController.php",
+              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\app\\Http\\Controllers\\AdminDisplayController.php",
+              "RelativeDocumentMoniker": "app\\app\\Http\\Controllers\\AdminDisplayController.php",
+              "ToolTip": "C:\\journyjournal\\docker-env\\app\\app\\Http\\Controllers\\AdminDisplayController.php",
+              "RelativeToolTip": "app\\app\\Http\\Controllers\\AdminDisplayController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-03-20T19:59:38.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InnDisplayController.php",
+              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\app\\Http\\Controllers\\InnDisplayController.php",
+              "RelativeDocumentMoniker": "app\\app\\Http\\Controllers\\InnDisplayController.php",
+              "ToolTip": "C:\\journyjournal\\docker-env\\app\\app\\Http\\Controllers\\InnDisplayController.php",
+              "RelativeToolTip": "app\\app\\Http\\Controllers\\InnDisplayController.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-03-20T20:16:52.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GeneralDisplayController.php",
+              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\app\\Http\\Controllers\\GeneralDisplayController.php",
+              "RelativeDocumentMoniker": "app\\app\\Http\\Controllers\\GeneralDisplayController.php",
+              "ToolTip": "C:\\journyjournal\\docker-env\\app\\app\\Http\\Controllers\\GeneralDisplayController.php",
+              "RelativeToolTip": "app\\app\\Http\\Controllers\\GeneralDisplayController.php",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-03-20T08:40:55.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "general_mypage.blade.php",
+              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\general_mypage.blade.php",
+              "RelativeDocumentMoniker": "app\\resources\\views\\general_mypage.blade.php",
+              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\general_mypage.blade.php",
+              "RelativeToolTip": "app\\resources\\views\\general_mypage.blade.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-03-20T08:33:01.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "mybooking_list.blade.php",
+              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\mybooking_list.blade.php",
+              "RelativeDocumentMoniker": "app\\resources\\views\\mybooking_list.blade.php",
+              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\mybooking_list.blade.php",
+              "RelativeToolTip": "app\\resources\\views\\mybooking_list.blade.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-03-20T08:29:30.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "auth.php",
               "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\config\\auth.php",
               "RelativeDocumentMoniker": "app\\config\\auth.php",
@@ -148,71 +188,12 @@
               "RelativeToolTip": "app\\config\\auth.php",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAADcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T23:14:07.214Z"
+              "WhenOpened": "2025-03-16T23:14:07.214Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "general_mypage.blade.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\general_mypage.blade.php",
-              "RelativeDocumentMoniker": "app\\resources\\views\\general_mypage.blade.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\general_mypage.blade.php",
-              "RelativeToolTip": "app\\resources\\views\\general_mypage.blade.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T22:58:48.142Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "post_detail.blade.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\post_detail.blade.php",
-              "RelativeDocumentMoniker": "app\\resources\\views\\post_detail.blade.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\post_detail.blade.php",
-              "RelativeToolTip": "app\\resources\\views\\post_detail.blade.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T22:50:47.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "edit_post.blade.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\edit_post.blade.php",
-              "RelativeDocumentMoniker": "app\\resources\\views\\edit_post.blade.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\edit_post.blade.php",
-              "RelativeToolTip": "app\\resources\\views\\edit_post.blade.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T22:39:36.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Post.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\app\\Post.php",
-              "RelativeDocumentMoniker": "app\\app\\Post.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\app\\Post.php",
-              "RelativeToolTip": "app\\app\\Post.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T22:31:58.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreatePost.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\app\\Http\\Requests\\CreatePost.php",
-              "RelativeDocumentMoniker": "app\\app\\Http\\Requests\\CreatePost.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\app\\Http\\Requests\\CreatePost.php",
-              "RelativeToolTip": "app\\app\\Http\\Requests\\CreatePost.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T22:26:46.514Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "AuthServiceProvider.php",
               "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\app\\Providers\\AuthServiceProvider.php",
               "RelativeDocumentMoniker": "app\\app\\Providers\\AuthServiceProvider.php",
@@ -224,193 +205,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountController.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\app\\Http\\Controllers\\AccountController.php",
-              "RelativeDocumentMoniker": "app\\app\\Http\\Controllers\\AccountController.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\app\\Http\\Controllers\\AccountController.php",
-              "RelativeToolTip": "app\\app\\Http\\Controllers\\AccountController.php",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T20:17:45.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "delete_account.blade.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\delete_account.blade.php",
-              "RelativeDocumentMoniker": "app\\resources\\views\\delete_account.blade.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\delete_account.blade.php",
-              "RelativeToolTip": "app\\resources\\views\\delete_account.blade.php",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T21:28:30.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "app.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\config\\app.php",
-              "RelativeDocumentMoniker": "app\\config\\app.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\config\\app.php",
-              "RelativeToolTip": "app\\config\\app.php",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAgwOIAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T20:53:15.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "account_edit_conf.blade.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\account_edit_conf.blade.php",
-              "RelativeDocumentMoniker": "app\\resources\\views\\account_edit_conf.blade.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\account_edit_conf.blade.php",
-              "RelativeToolTip": "app\\resources\\views\\account_edit_conf.blade.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T20:32:14.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "inn_mypage.blade.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\inn_mypage.blade.php",
-              "RelativeDocumentMoniker": "app\\resources\\views\\inn_mypage.blade.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\inn_mypage.blade.php",
-              "RelativeToolTip": "app\\resources\\views\\inn_mypage.blade.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T20:08:37.285Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "user_list.blade.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\user_list.blade.php",
-              "RelativeDocumentMoniker": "app\\resources\\views\\user_list.blade.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\user_list.blade.php",
-              "RelativeToolTip": "app\\resources\\views\\user_list.blade.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T19:03:35.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "post_list.blade.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\post_list.blade.php",
-              "RelativeDocumentMoniker": "app\\resources\\views\\post_list.blade.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\post_list.blade.php",
-              "RelativeToolTip": "app\\resources\\views\\post_list.blade.php",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAB8AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T17:55:47.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "delete_post.blade.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\delete_post.blade.php",
-              "RelativeDocumentMoniker": "app\\resources\\views\\delete_post.blade.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\delete_post.blade.php",
-              "RelativeToolTip": "app\\resources\\views\\delete_post.blade.php",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T21:41:15.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoginController.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\app\\Http\\Controllers\\Auth\\LoginController.php",
-              "RelativeDocumentMoniker": "app\\app\\Http\\Controllers\\Auth\\LoginController.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\app\\Http\\Controllers\\Auth\\LoginController.php",
-              "RelativeToolTip": "app\\app\\Http\\Controllers\\Auth\\LoginController.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-09T15:01:42.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "general_main.blade.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\general_main.blade.php",
-              "RelativeDocumentMoniker": "app\\resources\\views\\general_main.blade.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\general_main.blade.php",
-              "RelativeToolTip": "app\\resources\\views\\general_main.blade.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-09T14:35:21.308Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "validation.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\lang\\en\\validation.php",
-              "RelativeDocumentMoniker": "app\\resources\\lang\\en\\validation.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\lang\\en\\validation.php",
-              "RelativeToolTip": "app\\resources\\lang\\en\\validation.php",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-08T17:07:26.399Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "reset.blade.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\auth\\passwords\\reset.blade.php",
-              "RelativeDocumentMoniker": "app\\resources\\views\\auth\\passwords\\reset.blade.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\auth\\passwords\\reset.blade.php",
-              "RelativeToolTip": "app\\resources\\views\\auth\\passwords\\reset.blade.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-06T14:39:38.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "app.js",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\js\\app.js",
-              "RelativeDocumentMoniker": "app\\resources\\js\\app.js",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\js\\app.js",
-              "RelativeToolTip": "app\\resources\\js\\app.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-02T16:50:59.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "account_edit.blade.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\account_edit.blade.php",
-              "RelativeDocumentMoniker": "app\\resources\\views\\account_edit.blade.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\account_edit.blade.php",
-              "RelativeToolTip": "app\\resources\\views\\account_edit.blade.php",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwCQAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T20:24:51.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "delete_user.blade.php",
-              "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\resources\\views\\delete_user.blade.php",
-              "RelativeDocumentMoniker": "app\\resources\\views\\delete_user.blade.php",
-              "ToolTip": "C:\\journyjournal\\docker-env\\app\\resources\\views\\delete_user.blade.php",
-              "RelativeToolTip": "app\\resources\\views\\delete_user.blade.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-03-16T19:28:34.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "web.php",
               "DocumentMoniker": "C:\\journyjournal\\docker-env\\app\\routes\\web.php",
               "RelativeDocumentMoniker": "app\\routes\\web.php",
               "ToolTip": "C:\\journyjournal\\docker-env\\app\\routes\\web.php",
               "RelativeToolTip": "app\\routes\\web.php",
-              "ViewState": "AgIAADIAAAAAAAAAAAAkwGEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAwDkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
               "WhenOpened": "2025-03-06T12:14:46.656Z",
               "EditorCaption": ""

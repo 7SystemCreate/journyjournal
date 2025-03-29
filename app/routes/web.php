@@ -30,6 +30,7 @@ Auth::routes(['verify' => true]);
 
 //一般ユーザ(登録なくても利用可)
 Route::get('/', [GeneralDisplayController::class, 'index'])->name('home');
+Route::post('/', [GeneralDisplayController::class, 'search']);
 Route::get('/post/{post}/detail', [GeneralPostController::class, 'postDetail'])->name('post.detail');
 
 Route::group(['middleware' => ['auth']], function() {

@@ -3,11 +3,14 @@
 @section('content')
 
 <div class="container-fluid" style="margin-top: 20px;">
-    <!-- 新規投稿ボタン -->
-    <div class="row mb-4">
-        <div class="col-12 text-left">
+    <div class="row mb-4 d-flex align-items-center">
+        <div class="col-4 text-left">
             <a href="{{ route('create.post') }}" class="btn btn-success">新規投稿</a>
         </div>
+        <div class="col-4 text-center">
+            <h2 class="text-center font-weight-bold my-4">投稿一覧</h2>
+        </div>
+        <div class="col-4"></div>
     </div>
 
     <div class="row">

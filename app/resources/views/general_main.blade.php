@@ -2,8 +2,51 @@
 
 @section('content')
 <div class="container-fluid">
-    <div class="row">
-        @if ($posts->isNotEmpty()) 
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <form method="POST" action="{{ url('/') }}">
+                @csrf
+                <div class="card p-4">
+                    <div class="card-header text-center">検索フォーム</div>
+                    <div class="card-body">
+                        <div class="d-flex flex-wrap justify-content-between">
+                            <div class="col-md-3 mb-2">
+                                <label for="search" class="form-label">キーワード検索</label>
+                                <input type="text" class="form-control" name="search" placeholder="キーワードを入力"
+                                       value="{{ isset($search) ? $search : '' }}">
+                            </div>
+
+                            <div class="col-md-3 mb-2">
+                                <label for="start_date" class="form-label">宿泊可能日</label>
+                                <input type="date" class="form-control" name="start_date" id="start_date"
+                                       value="{{ isset($start_date) ? $start_date : '' }}">
+                                <span class="d-block text-center">～</span>
+                                <input type="date" class="form-control" name="end_date" id="end_date"
+                                       value="{{ isset($end_date) ? $end_date : '' }}">
+                            </div>
+
+                            <div class="col-md-3 mb-2">
+                                <label for="price_range" class="form-label">金額</label>
+                                <select class="form-control" name="price_range">
+                                    <option value="">金額を選択</option>
+                                    <option value="1" {{ isset($price_range) && $price_range == '1' ? 'selected' : '' }}>~5000円</option>
+                                    <option value="2" {{ isset($price_range) && $price_range == '2' ? 'selected' : '' }}>5000円~10000円</option>
+                                    <option value="3" {{ isset($price_range) && $price_range == '3' ? 'selected' : '' }}>10000円~20000円</option>
+                                    <option value="4" {{ isset($price_range) && $price_range == '4' ? 'selected' : '' }}>20000円~</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="text-center py-2">
+                            <button type="submit" class="btn btn-primary">検索</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        @if ($posts->isNotEmpty())
             @foreach ($posts as $post)
                 <div class="col-12 mb-4">
                     <div class="card d-flex flex-row align-items-center p-3">
@@ -36,13 +79,11 @@
                                 <!-- いいねボタン -->
                                 @auth
                                     @if ($post->isLikedByUser(Auth::id()))
-                                        <!-- いいね済みボタン -->
                                         <button id="like-btn-{{ $post->id }}" type="button" class="btn btn-outline-danger"
                                                 onclick="unlikePost({{ $post->id }})">
                                             いいねを取り消す <span id="like-count-{{ $post->id }}">{{ $post->likeCount() }}</span>
                                         </button>
                                     @else
-                                        <!-- まだいいねしていないボタン -->
                                         <button id="like-btn-{{ $post->id }}" type="button" class="btn btn-outline-primary"
                                                 onclick="likePost({{ $post->id }})">
                                             いいね！ <span id="like-count-{{ $post->id }}">{{ $post->likeCount() }}</span>
@@ -55,7 +96,9 @@
                 </div>
             @endforeach
         @else
-            <p>投稿がありません。</p>
+            <div class="col-12 text-center mt-3">
+                <p>投稿がありません。</p>
+            </div>
         @endif
     </div>
 </div>
